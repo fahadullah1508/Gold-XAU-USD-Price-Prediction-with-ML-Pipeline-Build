@@ -1,0 +1,16 @@
+{
+  "best_model": "Random Forest",
+  "accuracy": 0.7039800995024875,
+  "f1_score": 0.4812357846853677,
+  "auc": 0.7137961297741994,
+  "feature_names": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "SMA_20",
+    "RSI",
+    "Volume_MA"
+  ]
+}

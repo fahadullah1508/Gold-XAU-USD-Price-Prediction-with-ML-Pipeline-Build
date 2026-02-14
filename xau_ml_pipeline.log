@@ -1,0 +1,81 @@
+2026-02-14 03:54:25,649 - INFO - ============================================================
+2026-02-14 03:54:25,650 - INFO - XAU/USD ML Pipeline - Starting
+2026-02-14 03:54:25,650 - INFO - ============================================================
+2026-02-14 03:54:25,651 - INFO - Loading data from /mnt/okcomputer/upload/XAU_15m_data.csv
+2026-02-14 03:54:26,127 - INFO - Loaded 492964 rows spanning 2004-06-11 07:15:00 to 2025-12-31 23:45:00
+2026-02-14 03:54:26,128 - INFO - Filtering data for years 2022-2025
+2026-02-14 03:54:26,151 - INFO - Filtered dataset: 92457 rows from 2022-01-03 01:00:00 to 2025-12-31 23:45:00
+2026-02-14 03:54:26,152 - INFO - Preprocessing data...
+2026-02-14 03:54:26,158 - INFO - Removing 436 outliers from Open
+2026-02-14 03:54:26,163 - INFO - Removing 603 outliers from High
+2026-02-14 03:54:26,166 - INFO - Removing 396 outliers from Low
+2026-02-14 03:54:26,170 - INFO - Removing 583 outliers from Close
+2026-02-14 03:54:26,173 - INFO - After preprocessing: 90439 rows
+2026-02-14 03:54:26,174 - INFO - Calculating Fibonacci retracement levels...
+2026-02-14 03:54:26,189 - INFO - Fibonacci levels calculated
+2026-02-14 03:54:26,190 - INFO - Calculating SMC signals (BOS, CHoCH, Liquidity)...
+2026-02-14 03:54:26,249 - INFO - SMC signals calculated
+2026-02-14 03:54:26,250 - INFO - Calculating volume-based features...
+2026-02-14 03:54:26,280 - INFO - Volume features calculated
+2026-02-14 03:54:26,281 - INFO - Calculating technical indicators...
+2026-02-14 03:54:26,359 - INFO - Technical indicators calculated
+2026-02-14 03:54:26,360 - INFO - Creating target variable with lookahead=6 periods
+2026-02-14 03:54:26,439 - INFO - Target distribution: {0: 66037, 1: 24402}
+2026-02-14 03:54:26,440 - INFO - Preparing features...
+2026-02-14 03:54:34,943 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-02-14 03:54:35,066 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/unifont/unifont_sample.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+2026-02-14 03:54:44,308 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-02-14 03:54:44,431 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/unifont/unifont_sample.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+2026-02-14 03:54:55,049 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-02-14 03:54:55,170 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/unifont/unifont_sample.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+2026-02-14 03:55:19,962 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-02-14 03:55:20,085 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/unifont/unifont_sample.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+2026-02-14 03:55:20,288 - INFO - ============================================================
+2026-02-14 03:55:20,289 - INFO - XAU/USD ML Pipeline - Starting
+2026-02-14 03:55:20,289 - INFO - ============================================================
+2026-02-14 03:55:20,290 - INFO - Loading data from /mnt/okcomputer/upload/XAU_15m_data.csv
+2026-02-14 03:55:20,739 - INFO - Loaded 492964 rows spanning 2004-06-11 07:15:00 to 2025-12-31 23:45:00
+2026-02-14 03:55:20,740 - INFO - Filtering data for years 2022-2025
+2026-02-14 03:55:20,761 - INFO - Filtered dataset: 92457 rows from 2022-01-03 01:00:00 to 2025-12-31 23:45:00
+2026-02-14 03:55:20,762 - INFO - Preprocessing data...
+2026-02-14 03:55:20,765 - INFO - Removing 436 outliers from Open
+2026-02-14 03:55:20,770 - INFO - Removing 603 outliers from High
+2026-02-14 03:55:20,774 - INFO - Removing 396 outliers from Low
+2026-02-14 03:55:20,778 - INFO - Removing 583 outliers from Close
+2026-02-14 03:55:20,782 - INFO - After preprocessing: 90439 rows
+2026-02-14 03:55:20,782 - INFO - Calculating Fibonacci retracement levels...
+2026-02-14 03:55:20,797 - INFO - Fibonacci levels calculated
+2026-02-14 03:55:20,798 - INFO - Calculating SMC signals (BOS, CHoCH, Liquidity)...
+2026-02-14 03:55:43,749 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-02-14 03:55:43,873 - INFO - Failed to extract font properties from /usr/share/fonts/truetype/unifont/unifont_sample.ttf: Could not set the fontsize (invalid pixel size; error code 0x17)
+2026-02-14 03:55:44,071 - INFO - ============================================================
+2026-02-14 03:55:44,071 - INFO - XAU/USD ML Pipeline - Starting
+2026-02-14 03:55:44,072 - INFO - ============================================================
+2026-02-14 03:55:44,073 - INFO - Loading data from /mnt/okcomputer/upload/XAU_15m_data.csv
+2026-02-14 03:55:44,497 - INFO - Loaded 492964 rows spanning 2004-06-11 07:15:00 to 2025-12-31 23:45:00
+2026-02-14 03:55:44,498 - INFO - Filtering data for years 2022-2025
+2026-02-14 03:55:44,519 - INFO - Filtered dataset: 92457 rows from 2022-01-03 01:00:00 to 2025-12-31 23:45:00
+2026-02-14 03:55:44,520 - INFO - Preprocessing data...
+2026-02-14 03:55:44,523 - INFO - Removing 436 outliers from Open
+2026-02-14 03:55:44,527 - INFO - Removing 603 outliers from High
+2026-02-14 03:55:44,531 - INFO - Removing 396 outliers from Low
+2026-02-14 03:55:44,535 - INFO - Removing 583 outliers from Close
+2026-02-14 03:55:44,538 - INFO - After preprocessing: 90439 rows
+2026-02-14 03:55:44,538 - INFO - Calculating Fibonacci retracement levels...
+2026-02-14 03:55:44,553 - INFO - Fibonacci levels calculated
+2026-02-14 03:55:44,554 - INFO - Calculating SMC signals (BOS, CHoCH, Liquidity)...
+2026-02-14 03:55:44,598 - INFO - SMC signals calculated
+2026-02-14 03:55:44,598 - INFO - Calculating volume-based features...
+2026-02-14 03:55:44,623 - INFO - Volume features calculated
+2026-02-14 03:55:44,624 - INFO - Calculating technical indicators...
+2026-02-14 03:55:44,690 - INFO - Technical indicators calculated
+2026-02-14 03:55:44,691 - INFO - Creating target variable with lookahead=6 periods
+2026-02-14 03:55:44,773 - INFO - Target distribution: {0: 66037, 1: 24402}
+2026-02-14 03:55:44,774 - INFO - Preparing features...
+2026-02-14 03:55:44,833 - INFO - Feature matrix shape: (90419, 77)
+2026-02-14 03:55:44,834 - INFO - Number of features: 77
+2026-02-14 03:55:44,877 - INFO - Train set: (72335, 77), Test set: (18084, 77)
+2026-02-14 03:55:45,109 - INFO - Training models...
+2026-02-14 03:55:45,111 - INFO - Training Random Forest...
+2026-02-14 03:59:29,036 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Kernel.poll_control_queue() running at /usr/local/lib/python3.12/site-packages/ipykernel/kernelbase.py:309> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_chain_future.<locals>._call_set_state() at /usr/local/lib/python3.12/asyncio/futures.py:396]>
